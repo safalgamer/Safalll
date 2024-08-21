@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SAFALLL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body {
+            background-color: rgb(1, 33, 43);
+            color: white;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .header img {
+            height: 84px;
+            width: 84px;
+        }
+        .name {
+            display: flex;
+            justify-content: space-around;
+        }
+        .logo {
+            margin-top: 12px;
+            font-size: 25px;
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 10px;
+        }
+        .navbar a {
+            font-size: 18px;
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+        }
+        .navbar a:hover,
+        .navbar a.active {
+            color: aqua;
+        }
+        .about-section {
+            padding: 100px 10%;
+            text-align: center;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .youtube-logo {
+            width: 40px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 69px;
+            transition: transform 0.3s ease;
+        }
+        .youtube-link {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: 35px;
+            width: 100%;
+            transition: .3s;
+             display: flex;
+            justify-content: center;
+        
+        }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="name">
+            <a href="index.html"><img src="safalll1-removebg-preview.png" alt="Safalll logo"></a>
+            <a href="#" class="logo">SAFALLL</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to Safalll's YouTube channel, the hub for Nepali Minecraft enthusiasts! Here, you'll find engaging content that dives deep into the world of Minecraft, all crafted by a passionate creator who loves sharing gaming adventures.</p>
+            <p>As a leading Nepali Minecraft YouTuber, Safalll is dedicated to creating a vibrant community where everyone is welcome. Whether you're looking for tips, tricks, or just some entertaining gameplay, you've come to the right place.</p>
+            
+            <p>Join us on this exciting journey, hit that subscribe button, and be a part of the growing Safalll community!</p>
+           
+        </div>
+        <a href="https://www.youtube.com/@safalll" target="_blank" class="youtube-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/YouTube_icon_%282013-2017%29.png/800px-YouTube_icon_%282013-2017%29.png" alt="YouTube" class="youtube-logo">
+        </a>
+    </section>
+
+</body>
+</html>
